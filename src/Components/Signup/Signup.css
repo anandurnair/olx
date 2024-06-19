@@ -1,12 +1,18 @@
 .signupParentDiv {
     border: 1px solid black;
     width: max-content;
-    padding: 10px;
+    padding:  50px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+
+
   }
   
   .signupParentDiv .input {
@@ -36,3 +42,9 @@
     cursor: pointer;
   }
   
+  .loginBtn{
+    margin-top: 20px;
+  }
+  .loginBtn:hover{
+    cursor: pointer;
+  }
